@@ -5,14 +5,14 @@ body{
 h1{
     font-size: 50px;
 }
-.orance-color{
+.orange-color{
     color: orange;
 }
 a{
     background-image: linear-gradient(orange tomato );
 }
 
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -40,4 +40,18 @@ padding-left: 5%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experince-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 1%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+
 }
